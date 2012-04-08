@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : has_one :through => ...
+#key : hot
+#condition : (rails/model?)
+# --
+has_one :${1:model}, :through => :${2:through}

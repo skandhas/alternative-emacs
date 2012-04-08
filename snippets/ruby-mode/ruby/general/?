@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: condition ? something : something_else
+# key: ?
+# --
+${(condition)} ? ${(something)} : ${(something_else)}

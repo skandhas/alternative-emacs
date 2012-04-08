@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: flash[: ... ] = ...
+# key: flash
+# --
+flash[:${notice}] = "${Text here...}"

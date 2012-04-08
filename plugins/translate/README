@@ -1,0 +1,73 @@
+translates the character string on Emacs.
+this packages use the text translation service that exists
+on the Internet.
+
+* Configuration sample
+
+Put the following elisp files to your load-path directory.
+
+ - text-translator.el
+ - text-translator-vars.el
+ - text-translator-sites.el
+ - text-translator-window.el
+
+You can use Makefile too.
+
+ $ make
+ $ make install
+
+** use autoload
+
+(require 'text-translator-load)
+
+** use require
+
+;;;; not autoload, use require
+(require 'text-translator)
+
+** set global key
+
+(global-set-key "\C-x\M-t" 'text-translator)
+(global-set-key "\C-x\M-T" 'text-translator-translate-last-string)
+
+Using C-x M-t, translates the selected text by selected language.
+Using C-x M-T, translates the selected text by all possibility engines
+that can be translates in the selected language.
+
+** use proxy
+
+;; ;; if you are setting environment variables HTTP_PROXY,
+;; ;; you have not to set this.
+;; (setq text-translator-proxy-server "proxy.hogehoge.com")
+;; (setq text-translator-proxy-port   8080)
+
+** use translation type auto selection (english/japanese only)
+
+;; set function that use auto selection
+(setq text-translator-auto-selection-func
+      'text-translator-translate-by-auto-selection-enja)
+;; set global-key
+(global-set-key "\C-xt" 'text-translator-translate-by-auto-selection)
+(global-set-key "\C-xT" 'text-translator-all-by-auto-selection)
+
+* Translation sites.
+
+- google.com
+- yahoo.com
+- freetranslation.com
+- livedoor.com
+- fresheye.com
+- excite.co.jp
+- yahoo.co.jp (Currently not available)
+- ocn.ne.jp
+- lou5.jp
+- traduku.net
+
+* thanks
+
+# README.en ends here
+
+# Local Variables:
+# mode: outline
+# mode: auto-fill
+# End:

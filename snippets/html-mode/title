@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Jimmy Wu <frozenthrone88@gmail.com>
+# name: <title>...</title>
+# key: ti
+# --
+<title>$1</title>

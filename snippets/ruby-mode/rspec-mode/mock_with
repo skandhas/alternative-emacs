@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: mock_with
+# key: mocw
+# --
+RSpec::Runner.configure do |config|
+	config.mock_with :${0:mocha|flexmock|rr}
+end

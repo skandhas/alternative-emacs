@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: test case
+# key: ts
+# --
+require "test/unit"
+
+require "tc_${1:test_case_file}"
+require "tc_${2:test_case_file}"

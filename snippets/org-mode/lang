@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: LANGUAGE
+# key: language
+# --
+#+LANGUAGE: ${1:en}

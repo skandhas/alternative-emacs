@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : YAML.load(file)
+# key: Yl-
+# --
+File.open("${1:path/to/file}.yaml") { |${2:file}| YAML.load(${2:file}) }

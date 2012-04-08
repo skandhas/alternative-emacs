@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Jimmy Wu <frozenthrone88@gmail.com>
+# name: class="..."
+# key: cl
+# --
+class="$1"

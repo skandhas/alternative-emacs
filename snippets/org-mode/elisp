@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# elisp: #+begin_src emacs-lisp ...#+end_src
+# key: elisp
+# --
+#+begin_src emacs-lisp -r -n
+$0
+#+end_src

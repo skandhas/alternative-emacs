@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : Set.new(enum) {|e| ... }
+# key: Set
+# --
+Set.new(${1:enum}) {|e| $0 }

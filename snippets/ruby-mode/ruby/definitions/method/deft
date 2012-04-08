@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: def test_??? ... end
+# key: deft
+# --
+def test_${1:case_name}
+  $0
+end

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Given a known starting condition
+# key: Given
+# --
+Given ${1:a known starting condition}
+$0

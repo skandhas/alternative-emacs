@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: accessor method
+# key: =
+# --
+def ${1:name}=(new_$1)
+  @$1 = new_$1
+  $2
+end

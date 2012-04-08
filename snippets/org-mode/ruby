@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# elisp: #+begin_src ruby ...#+end_src
+# key: ruby
+# --
+#+begin_src ruby -r -n
+  # -*- coding: utf-8 -*-
+$0
+#+end_src

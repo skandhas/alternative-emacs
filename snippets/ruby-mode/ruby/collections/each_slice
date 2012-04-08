@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: each_slice(2) {|array| ... }
+# key: each_slice
+# --
+each_slice(${1:length}) {|${2:a}| $0 }

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: open(path) do |file|
+# key: open
+# --
+open(${1:"path/to/file"}) do |${2:f}|
+  $0
+end

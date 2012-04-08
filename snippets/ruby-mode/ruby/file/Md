@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: 
+# key: Md
+# --
+File.open("${1:path/to/file}.dump"}, "w") {|${2:dump_file}| Marshal.dump(${3:obj}, $3) }

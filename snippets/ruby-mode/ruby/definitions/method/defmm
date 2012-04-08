@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: defmm
+# --
+def method_missing(method, *args)
+  $0
+end

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: defmacro
+# key: defmacro
+# --
+(defmacro ${1:name} (${2:parameters})
+  "${3:Docstring}"
+  ($0))

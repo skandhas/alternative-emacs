@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : t.timestamps
+#key : t
+#condition : (rails/migration?)
+# --
+t.timestamps

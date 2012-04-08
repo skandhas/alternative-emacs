@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: downto(n) {|i| ... }
+# key: downto
+# --
+downto(${n}) {|${i}|
+  $0
+}

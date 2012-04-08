@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Jimmy Wu <frozenthrone88@gmail.com>
+# name: id="..."
+# key: id
+# --
+id="$1"

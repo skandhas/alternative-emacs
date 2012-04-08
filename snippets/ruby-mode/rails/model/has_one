@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : has_one
+#key : has_one
+#condition : (rails/model?)
+# --
+has_one :${1:model}${2:, :dependent => :destroy}

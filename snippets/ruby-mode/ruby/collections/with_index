@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: with_index {|element, index| ... }
+# key: with_index
+# --
+with_index(${1:0}) {|${e}, ${i}| $0 }

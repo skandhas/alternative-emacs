@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: one? {|element| ... }
+# key: one?
+# --
+one? {|${1:e}| $0 }

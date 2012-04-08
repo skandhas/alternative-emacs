@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: render :inline => ..., :locals => {  ...  => ... } 
+# key: renderi
+# --
+render :inline => "${<%= 'hello' %>}", :locals => { ${name} => "${value}" }

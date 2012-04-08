@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : add_index :unique => true
+#key : add_index
+#condition : (rails/migration?)
+# --
+add_index :${1:"table"}, [:${2:column}], :unique => true

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: select {|element| ... }
+# key: select
+# --
+select {|e| $0 }

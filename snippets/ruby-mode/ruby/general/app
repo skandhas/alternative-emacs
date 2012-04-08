@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: if __FILE__ == $0 ... end
+# key: app
+# --
+if __FILE__ == \$0
+  $0
+end

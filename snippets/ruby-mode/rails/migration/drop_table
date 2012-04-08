@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : drop_table
+#key : drop_table
+#condition : (rails/migration?)
+# --
+drop_table :${1:"table"}

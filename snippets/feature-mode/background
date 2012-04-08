@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Background
+# key: Background
+# --
+Background:
+  Given ${1: a known starting condition}
+  $0

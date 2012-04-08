@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: REXML
+# key: xml
+# --
+REXML::Document.new(File.read(${1:"${2:path/to/file}"}))

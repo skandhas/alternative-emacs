@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: each_byte
+# key: each_byte
+# --
+each_byte {|b| $0 }

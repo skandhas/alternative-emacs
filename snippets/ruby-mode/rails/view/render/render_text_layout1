@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: render :text => ..., :layout =>  ... 
+# key: rendert
+# --
+render :text => "${Text here...}", :layout => ${true}

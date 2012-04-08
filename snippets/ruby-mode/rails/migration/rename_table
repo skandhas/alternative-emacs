@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : rename_table
+#key : rename_table
+#condition : (rails/migration?)
+# --
+rename_table :${1:old_name}, :${2:new_name}

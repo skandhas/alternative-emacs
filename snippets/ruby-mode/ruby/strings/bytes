@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bytes {|byte| ... }
+# key: bytes
+# --
+bytes {|b| $0 }

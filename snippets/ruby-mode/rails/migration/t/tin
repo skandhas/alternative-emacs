@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : t.index
+#key : t
+#condition : (rails/migration?)
+# --
+t.index [:${name}$0]

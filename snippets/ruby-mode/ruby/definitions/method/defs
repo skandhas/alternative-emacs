@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#name : def self.class_method ... end
+# key: defs
+# --
+def self.${1:class_method}
+  $0
+end

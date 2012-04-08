@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: find {|element| ... }
+# key: find
+# --
+find {|${e}| $0 }

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : t.boolean
+#key : t
+#condition : (rails/migration?)
+# --
+t.boolean :${1:name}

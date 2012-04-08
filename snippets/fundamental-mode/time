@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: (current time)
+# key: time
+# --
+Author: Billy <zw963@163.com>
+Date: `(insert-date)`
+

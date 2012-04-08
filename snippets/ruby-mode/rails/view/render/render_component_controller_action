@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: render_component :controller => ..., :action => ... 
+# key: renderc
+# --
+render_component :controller => "${items}", :action => "${index}"

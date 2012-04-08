@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Dir.glob(globbing) do |file| .. end
+# key: glob
+# --
+Dir.glob("${1:dir/glob/*}") {|${2:file}| $0 }

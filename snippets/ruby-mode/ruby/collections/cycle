@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cycle {|element| ... }
+# key: cycle
+# --
+cycle {|${e}| $0 }

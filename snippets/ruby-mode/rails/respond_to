@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: respond_to do |format| ..
+# key: respond_to
+# --
+respond_to do |format|
+  format.${1:html} $0
+end

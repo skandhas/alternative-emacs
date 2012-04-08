@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: (email)
+# key: mail
+# --
+`(eval user-mail-address)`

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: times {|n| ... }
+# key: times
+# --
+times { $0 }

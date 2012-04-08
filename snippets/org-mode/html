@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# html: #+begin_src html ...#+end_src
+# key: html
+# --
+#+begin_src html -r -n
+$0
+#+end_src

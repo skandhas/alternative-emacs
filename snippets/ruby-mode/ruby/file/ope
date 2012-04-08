@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: open (w)
+# key: ope
+# --
+open(1:"${2:path/or/url/or/pipe}", ${3:w}) {|${4:io}| $0 }

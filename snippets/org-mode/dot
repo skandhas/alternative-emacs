@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# dot: #+begin_src dot ... #+end_src
+# key: dot
+# --
+#+begin_src dot :file ${1:export-file-name} :cmdline -Kdot -Tpng
+$0
+#+end_src

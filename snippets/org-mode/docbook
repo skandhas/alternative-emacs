@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DOCBOOK
+# key: docbook
+# --
+#+BEGIN_DOCBOOK
+${0}
+#+END_DOCBOOK

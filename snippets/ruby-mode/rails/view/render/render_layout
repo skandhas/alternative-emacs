@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: render :layout => ...
+# key: renderl
+# --
+render :layout => "${layoutname}"

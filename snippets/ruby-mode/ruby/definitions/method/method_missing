@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: method_missing ... end
+# key: method_missing
+# --
+method_missing(method, *args)
+  $0
+end

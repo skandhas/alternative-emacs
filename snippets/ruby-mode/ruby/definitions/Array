@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : Array.new(element_number) {|i| ... }
+# key: Array
+# --
+Array.new(${10}) {|${i}| $0 }

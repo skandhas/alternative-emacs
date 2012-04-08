@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: codepoints {|codepoint| ... }
+# key: codepoints
+# --
+codepoints {|cp| $0 }

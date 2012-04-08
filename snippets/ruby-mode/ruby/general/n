@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: named groups
+# key: n
+# --
+(?<${named_group}>${regexp})

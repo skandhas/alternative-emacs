@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: And something else
+# key: And
+# --
+And ${1:something else}
+$0

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#name : named_scope ... lambda {}
+#key : named_scope
+#condition : (rails/model?)
+# --
+named_scope :${1:approved}, lambda { |i|
+  { :conditions => { :${2:approved} => ${3:true} } }
+}

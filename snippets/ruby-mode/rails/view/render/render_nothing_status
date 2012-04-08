@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: render :nothing =>  ... , :status =>  ...
+# key: rendern
+# --
+render :nothing => ${true}, :status => ${401}

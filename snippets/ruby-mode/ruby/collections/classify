@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: classify {|element| ... }
+# key: classify
+# --
+classify {|${e}| $0 }

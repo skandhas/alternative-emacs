@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name:
+# key: Yd-
+# --
+File.open("${2:path/to/file}.yaml"}, "w") {|${2:file}| YAML.dump(${3:obj}, $2) }

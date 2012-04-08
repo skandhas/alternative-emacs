@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: css block 
+# key: b
+# --
+${1:.elements} {
+`(indent-for-tab-command)`${2:property}
+}

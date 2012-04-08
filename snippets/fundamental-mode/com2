@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name:  comment --------
+# key: com2
+# --
+`(insert-my-comment nil)` ------------------------------ ${1:comment} ------------------------------

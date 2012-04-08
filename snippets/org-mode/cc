@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# elisp: #+begin_src c ...#+end_src
+# key: cc
+# --
+#+begin_src c -r -n
+$0
+#+end_src

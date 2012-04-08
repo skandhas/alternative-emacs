@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: <% ruby code %>
+# key: r
+# --
+<% ${1:ruby code} %>

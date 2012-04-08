@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: each_pair {|key, val| ... }
+# key: each_pair
+# --
+each_pair {|${1:k}, ${2:v}| $0 }

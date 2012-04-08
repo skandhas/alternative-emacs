@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#name : initialize ... end
+# key: initialize
+# --
+initialize(${1:params})
+  ${2:body}
+end
+$0

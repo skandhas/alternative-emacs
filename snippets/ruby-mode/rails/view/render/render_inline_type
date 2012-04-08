@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: render :inline => ..., :type => : ... ) 
+# key: renderi
+# --
+render :inline => "${<%= 'hello' %>}", :type => :${rxml})

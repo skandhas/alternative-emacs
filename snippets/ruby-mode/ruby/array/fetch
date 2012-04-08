@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fetch(index) {|i| ... }
+# key: fetch
+# --
+fetch(${1:index}) {|${2:i}| $0 }

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : t.datetime
+#key : t
+#condition : (rails/migration?)
+# --
+t.datetime :${1:name}

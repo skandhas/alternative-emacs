@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# ditaa: #+begin_src ditaa ... #+end_src
+# key: ditaa
+# --
+#+begin_src ditaa :file ${1:export-file-name} :cmdline -r -s 0.8
+$0
+#+end_src

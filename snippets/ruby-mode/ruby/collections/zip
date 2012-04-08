@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : zip(enum) {|row| ... }
+# key: zip
+# --
+zip(${enums}) {|${row}| $0 }

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: render :text => ..., :status =>  ... 
+# key: rendert
+# --
+render :text => "${Text here...}", :status => ${401}

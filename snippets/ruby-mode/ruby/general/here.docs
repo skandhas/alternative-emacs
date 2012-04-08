@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: hereDoc
+# key: <<-
+# --
+<<-'This_Is_A_Very_Long_Long_Docs'
+$0
+This_Is_A_Very_Long_Long_Docs

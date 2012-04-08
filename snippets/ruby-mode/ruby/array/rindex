@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rindex {|e| ... }
+# key: rindex
+# --
+rindex {|${1:e}| $0 }

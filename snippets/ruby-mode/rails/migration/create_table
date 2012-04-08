@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#name : create_table
+#key : create_table
+#condition : (rails/migration?)
+# --
+create_table :${1:"table")} do |t|
+  $0
+end

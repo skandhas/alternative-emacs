@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: index {|e| ... }
+# key: index
+# --
+index {|${1:e}| $0 }

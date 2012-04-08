@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: reverse_each {|element| ...}
+# key: reverse_each
+# --
+reverse_each {|${1:e}| $0 }

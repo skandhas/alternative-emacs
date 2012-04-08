@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: benchmark report
+# key: bm
+# --
+Benchmark.bm(7) do |x|
+  x.report("${1:report name}") do
+    $0
+  end
+end

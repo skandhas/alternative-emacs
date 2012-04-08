@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: take_while {|element| ... }
+# key: take_while
+# --
+take_while {|${1:e}| $0 }

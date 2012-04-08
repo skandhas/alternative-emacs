@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: `(indent-for-tab-command)`
+# key: `
+# --
+\`(indent-for-tab-command)\`

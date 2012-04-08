@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: each_cons(length) {|array| ... }
+# key: each_cons
+# --
+each_cons(${length}) {|${a}| $0 }

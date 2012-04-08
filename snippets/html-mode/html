@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Jimmy Wu <frozenthrone88@gmail.com>
+# name: <html>...</html>
+# key: ht
+# --
+<html>
+  $0
+</html>

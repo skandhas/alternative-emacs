@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: render :action => ... 
+# key: rendera
+# --
+render :action => "${action}"

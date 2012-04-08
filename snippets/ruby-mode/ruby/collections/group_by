@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: group_by {|element| ... }
+# key: group_by
+# --
+group_by {|e| $0 }

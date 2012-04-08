@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : t.integer
+#key : t
+#condition : (rails/migration?)
+# --
+t.integer :${1:name}

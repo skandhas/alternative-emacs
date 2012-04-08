@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: each_char
+# key: each_char
+# --
+each_char {|ch| $0 }

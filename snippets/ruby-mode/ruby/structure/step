@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: step(number, step) {|i| ... }
+# key: step
+# --
+step(${number}, ${step}) {|${i}|
+  $0
+}

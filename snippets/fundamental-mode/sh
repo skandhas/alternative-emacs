@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: sh mode
+# key: sh
+# --
+#!/bin/sh
+

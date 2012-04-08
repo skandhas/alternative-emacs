@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name: validates_format_of : ... , :with => / ... /
+#key: validates
+#condition : (rails/model?)
+# --
+validates_format_of :${attr}, :with => /${regex}/

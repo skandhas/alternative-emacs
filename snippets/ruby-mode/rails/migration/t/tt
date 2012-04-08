@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : t.text
+#key : t
+#condition : (rails/migration?)
+# --
+t.text :${1:name}

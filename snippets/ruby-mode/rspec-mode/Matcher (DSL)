@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Matcher (DSL)
+# key: Matchers
+# --
+RSpec::Matchers.define :${1:name} do |${2:expected}|
+  match do |${3:actual}|
+    $3.$1?($2)
+  end
+end

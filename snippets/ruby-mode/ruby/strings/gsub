@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: gsub(/pattern/) {|match| ... }
+# key: gsub
+# --
+gsub(/${1:pattern}/) {|m| $0 }

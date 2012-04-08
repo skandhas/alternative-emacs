@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : has_one :as => ...
+#key : has_one
+#condition : (rails/model?)
+# --
+has_one :${1:model}, :as => :${2:ownable}

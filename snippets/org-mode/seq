@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: SEQ TODO
+# key: seq
+# --
+#+SEQ_TODO: ${1:STATES} | ${2:FINISHED}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: chars {|char| ... }
+# key: chars
+# --
+chars {|ch| $0 }

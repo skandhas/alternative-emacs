@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name: detect {|element| ... }
+# key: detect
+# --
+detect {|${e}| $0 }

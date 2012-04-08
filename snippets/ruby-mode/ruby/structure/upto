@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: upto(n) do |i|; ...; end
+# key: upto
+# --
+upto ${n} do |${i}|
+  $0
+end

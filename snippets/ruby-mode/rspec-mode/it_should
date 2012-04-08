@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: it (should do something)
+# key: its
+# --
+it "should ${1:do something}" do
+  $0
+end

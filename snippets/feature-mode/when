@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: When some action
+# key: When
+# --
+When ${1:some action}
+$0

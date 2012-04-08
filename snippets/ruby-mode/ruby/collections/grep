@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: grep(pattern) {|match| ... }
+# key: grep
+# --
+grep(${1:pattern}) {|${2:m}| $0 }

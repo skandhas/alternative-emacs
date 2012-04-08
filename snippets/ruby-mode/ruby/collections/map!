@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: map! {|element| ... }
+# key: map!
+# --
+map! {|${1:e}| $0 }

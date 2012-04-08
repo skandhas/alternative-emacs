@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+#name : begin ... rescue ... end
+# key: begin
+# --
+begin
+  $3
+rescue ${1:Exception} => ex
+  $0
+end

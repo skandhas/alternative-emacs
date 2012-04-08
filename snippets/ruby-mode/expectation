@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: expectation...
+# key: exp
+# --
+it "${1:describe}" do
+  $0
+  $5 = mock('$5')
+  $2.new(${4:argument})
+
+
+  ${5:mock role}.should_receive(${6:received message})
+
+  ${2:subject object}.${3:send message}
+end

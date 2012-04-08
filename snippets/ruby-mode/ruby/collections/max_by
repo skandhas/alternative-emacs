@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : max_by {|element| .. }
+# key: max_by
+# --
+max_by {|${e}| $0 }

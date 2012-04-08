@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: class_eval {...}
+# key: class_eval
+# --
+class_eval do
+  $0
+end

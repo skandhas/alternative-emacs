@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: {|arg| block... }
+# key: b
+# --
+{|${1:arg}| ${2:block} }

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : min_by {|element| .. }
+# key: min_by
+# --
+min_by {|${e}| $0 }

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : class_from_name()
+# key: class_from_name
+# --
+split("::").inject(Object) { |par, const| par.const_get(const) }

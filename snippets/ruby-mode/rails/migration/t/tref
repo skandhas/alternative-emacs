@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : t.references
+#key : t
+#condition : (rails/migration?)
+# --
+t.references :${1:owner}

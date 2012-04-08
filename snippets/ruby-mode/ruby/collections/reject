@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: reject {|element| ... }
+# key: reject
+# --
+reject {|${1:e}| $0 }

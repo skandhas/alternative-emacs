@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: snippet-mode
+# key: yas
+# --
+`(snippet-mode)`# -*- mode: snippet -*-

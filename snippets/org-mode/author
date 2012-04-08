@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Author
+# key: author
+# --
+#+AUTHOR: ${1:`user-full-name`}

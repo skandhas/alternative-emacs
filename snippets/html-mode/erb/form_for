@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: <%= form_for ... do |f| %>
+# key: ff
+# --
+<%= form_for @${object} do |f| %>
+  $0
+<% end %>

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: merge(other_hash) {|dup_key, old_val, new_val| ... }
+# key: merge
+# --
+merge(${other_hash}) {|k, o, n| $0 }

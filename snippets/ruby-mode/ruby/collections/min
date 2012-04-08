@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: min {|a, b| ... }
+# key: min
+# --
+min {|a, b| $0 }

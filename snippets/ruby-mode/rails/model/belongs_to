@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : belongs_to
+#key : belongs_to
+#condition : (rails/model?)
+# --
+belongs_to :${1:model}

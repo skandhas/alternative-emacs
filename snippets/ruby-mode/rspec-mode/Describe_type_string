@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: describe (type, string)
+# key: describe
+# --
+describe ${1:Type}, "${2:description}" do
+  $0
+end

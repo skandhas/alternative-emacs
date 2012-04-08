@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : minxmax_by {|element| .. }
+# key: minmax_by
+# --
+minmax_by {|${e}| $0 }

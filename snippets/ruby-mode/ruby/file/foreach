@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: foreach(path) do |line|
+# key: foreach
+# --
+foreach("${1:path/to/file}") do |${3:line}|
+  $0
+end

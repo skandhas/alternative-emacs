@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: group
+# key: group
+# --
+group :${development} do
+  gem "$0"
+end

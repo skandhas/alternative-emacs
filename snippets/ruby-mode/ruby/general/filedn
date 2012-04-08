@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : File.dirname(__FILE__)
+# key: filedn
+# --
+File.dirname(${1:__FILE__}) + "/$0"

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: <%= link_to ... %>
+# key: link_to
+# --
+<%= link_to '${1:caption}', $0 %>

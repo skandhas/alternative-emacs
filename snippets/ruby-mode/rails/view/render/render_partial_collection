@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: render :partial => ..., :collection =>  ... 
+# key: renderp
+# --
+render :partial => "${item}", :collection => ${items}

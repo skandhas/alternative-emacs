@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : t.binary
+#key : t
+#condition : (rails/migration?)
+# --
+t.binary :${1:name}

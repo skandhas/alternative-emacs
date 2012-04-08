@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: each_line
+# key: each_line
+# --
+each_line {|line| $0 }

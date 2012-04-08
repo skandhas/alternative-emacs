@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: session[: ... ]
+# key: session
+# --
+session[:${user}]

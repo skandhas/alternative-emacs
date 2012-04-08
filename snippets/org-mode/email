@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Email
+# key: email
+# --
+#+EMAIL: ${1:`user-mail-address`}

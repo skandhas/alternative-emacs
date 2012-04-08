@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : validates_presence_of
+#key : validates
+#condition : (rails/model?)
+# --
+validates_presence_of :${1:name}

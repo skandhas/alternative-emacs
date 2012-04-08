@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: loop do;  ... ; end
+# key: loop
+# --
+loop do
+  $0
+end

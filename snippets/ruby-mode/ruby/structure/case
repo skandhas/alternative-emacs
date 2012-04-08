@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: case ... end
+# key: case
+# --
+case $1
+when ${condition}
+  $0
+end

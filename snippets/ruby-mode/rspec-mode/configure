@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: configure
+# key: configure
+# --
+RSpec.configure do |config|
+  config.$0
+end

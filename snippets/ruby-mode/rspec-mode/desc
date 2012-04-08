@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: describe (String)
+# key: desc
+# --
+describe "${1:subject}" do
+  $0
+end

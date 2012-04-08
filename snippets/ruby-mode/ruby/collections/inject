@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: inject(0) {|accumulator, element| ... }
+# key: inject
+# --
+inject(${1:0}) do |${2:a}, ${3:e}|
+  $0
+end

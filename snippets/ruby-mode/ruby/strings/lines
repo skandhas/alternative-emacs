@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: lines {|line| ... }
+# key: lines
+# --
+lines$1 {|line| $0 }

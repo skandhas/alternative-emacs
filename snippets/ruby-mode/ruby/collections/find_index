@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: find_index {|element| ... }
+# key: find_index
+# --
+find_index {|${e}| $0 }

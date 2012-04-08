@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: test
+# key: tt
+# --
+test "${String}" do
+  $0
+end
